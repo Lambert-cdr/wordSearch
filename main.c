@@ -3,6 +3,7 @@
 #include <ctype.h>
 
 
+
 void turkce_kucukHarf(char *str){
     for(int i = 0; str[i] != '\0'; i++){
         switch (str[i])
